@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -68,7 +69,6 @@ private:
 class TraitementEnChamp : public TraitementPhytoSanitaire {
 public:
     TraitementEnChamp();
-    TraitementEnChamp(double);
     ~TraitementEnChamp();
     float quantitéAppliquee();
 
